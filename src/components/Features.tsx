@@ -2,25 +2,20 @@ import Bentodemo from './bentogrid';
 
 export const Features = () => {
   return (
-
-    <div className="bg-black text-white py-[72px] sm:py-24 ">
-
+    <div className="bg-black text-white py-[72px] sm:py-24">
       <div className="container">
-        <h2 className="text-center font-bold text-5xl sm:text-6xl tracking-tighter">Meet The Biggest Devops Cloud Community</h2>
-        <div className='max-w-xl mx-auto'>
-        <p className="text-center mt-5 text-xl text-white/70">
-       " The only and Biggest Community in the world where you can learn most advance topics of devops easily "
-        </p>
+        <h2 className="text-center font-bold text-5xl sm:text-6xl tracking-tighter">
+          Meet The Biggest Devops Cloud Community
+        </h2>
+        <div className="max-w-xl mx-auto">
+          <p className="text-center mt-5 text-xl text-white/70">
+            &quot;The only and Biggest Community in the world where you can learn the most advanced topics of DevOps easily&quot;
+          </p>
         </div>
         <div className="flex flex-col items-center justify-center sm:flex-row gap-4 mt-72">
           <Bentodemo />
-          
-
         </div>
-
       </div>
-
-
     </div>
-  )
-}
+  );
+};
